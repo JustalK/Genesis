@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "production"]
+	url = git@git.wpengine.com:production/kevinsupersogo.git
+	fetch = +refs/heads/*:refs/remotes/production/*
